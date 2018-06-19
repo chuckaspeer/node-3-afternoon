@@ -8,6 +8,10 @@ import { Provider } from "react-redux";
 
 import store from './store';
 
+
+
+app.use(checkForSession);
+
 ReactDOM.render(
   <BrowserRouter>
     <Provider store={ store }>
